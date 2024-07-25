@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "zza's first page"
-date:   2024-07-25 12:00:00 +0800
+date:   2024-07-25 10:00:00 +0800
 categories: jekyll update
 ---
 - 旧版参考（已归档）-[[用Github做个人博客（作废）]]
@@ -21,5 +21,35 @@ categories: jekyll update
 	- 运行Jekyll服务：“bundle exec jekyll serve”
 - 配置Jekyll
 	- 首先配置“config.yml”
+	- 创建一个assets文件夹，可以存储一些放置到其他博客页面中的图片等资源
+	- 上传一篇markdown推文到post文件夹
+	- 修改About.md文件
+	- 选一个logo图标，制作成favicon.ico文件，放置在根目录
 - Git到Github仓库
+	- 创建仓库
+		- 个人主页可以命名为：zen-zhao.github.io
+	- git上去
+```
+git init
+git remote add origin https://github.com/zen-zhao/zen-zhao.github.io.git
+git add .
+git commit -m "create my blog site"
+git push -u origin master
+```
+（这里出现了报错，需要将master改名为main）
+```
+git branch -m master main
+git push -u origin main
+```
+（这次即可push成功）
+```
+git add .
+git commit -m "描述你的更改内容"
+git push origin main
+```
+（在后续更改时，使用这个 add+push 的git指令组合即可）
+- 修改Jekyll网站外观-计划
+	- 修改主题
+	- 修改导航页
+	- 个人介绍
 ---
