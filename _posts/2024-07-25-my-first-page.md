@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "zza's first page"
-date:   2024-07-25 12:00:00 +0000
+date:   2024-07-25 12:00:00 +0800
 categories: jekyll update
 ---
 - 旧版参考（已归档）-[[用Github做个人博客（作废）]]
